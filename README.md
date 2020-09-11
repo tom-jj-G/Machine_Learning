@@ -5,7 +5,7 @@ The goals of this challenge is to:
 
 - Implement machine learning models
 - Use resampling to attempt to address class imbalance
-- Evaluate the performance of machine learning models
+- Evaluate the performance of machine learning models to predict credit risk.
 
 ## Technoligies
 - Python (version 3.7.7)
@@ -80,3 +80,7 @@ The goals of this challenge is to:
 |*ClusterCentroids*|
 |High Risk|0.01|0.67|
 |Low Risk|1.00|0.40|
+
+### Analysis
+
+Based of the balanced accurancy, EasyEnsembleClassifier outpast the others five models which are all about 70& of accurancy (except the ClusterCentroids which is the less accurate with a 50% mark)
