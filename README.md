@@ -60,27 +60,28 @@ The goals of this challenge is to:
 
 > Precision and recal score recap:
 
-| |Precision |Recall|
+| |Precision |Recall|F1|
 |---|-----------|-----------------|
 |*EasyEnsembleClassifier*|
-|High Risk|0.09|0.92|
-|Low Risk|1.00|0.94|
+|High Risk|0.09|0.92||
+|Low Risk|1.00|0.94||
 |*BalancedRandomForestClassifier*|
-|High Risk|0.02|0.61|
-|Low Risk|1.00|0.84|
+|High Risk|0.02|0.61||
+|Low Risk|1.00|0.84||
 |*RandomOverSampler*|
-|High Risk|0.01|0.71|
-|Low Risk|1.00|0.61|
+|High Risk|0.01|0.71||
+|Low Risk|1.00|0.61||
 |*SMOTEENN*|
-|High Risk|0.01|0.73|
-|Low Risk|1.00|0.59|
+|High Risk|0.01|0.73||
+|Low Risk|1.00|0.59||
 |*SMOTE*|
-|High Risk|0.01|0.62|
-|Low Risk|1.00|0.69|
+|High Risk|0.01|0.62||
+|Low Risk|1.00|0.69||
 |*ClusterCentroids*|
-|High Risk|0.01|0.67|
-|Low Risk|1.00|0.40|
+|High Risk|0.01|0.67||
+
 
 ### Analysis
 
-Based of the balanced accurancy, EasyEnsembleClassifier outpast the others five models which are all about 70& of accurancy (except the ClusterCentroids which is the less accurate with a 50% mark)
+Based of the balanced accurancy, EasyEnsembleClassifier model, with a accurancy of about 90%, outpast the others five models which are all about 70% of accurancy (except the ClusterCentroids which is the less accurate with a 50% mark).
+In overall, all models 
