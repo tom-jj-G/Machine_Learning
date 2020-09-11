@@ -19,9 +19,9 @@ The goals of this challenge is to:
 
 ### Balanced accurancy
 
-> Balanced accurancy recap (best value first)
+> Balanced accurancy recap (best value first):
 
-|Method|Model|Balanced accurancy score|
+|Type|Model|Balanced accurancy score|
 |---|--|--|
 |Ensemble|EasyEnsembleClassifier|0.9316600714093861|
 |Ensemble|BalancedRandomForestClassifier|0.7290249400290825|
@@ -32,8 +32,10 @@ The goals of this challenge is to:
 
 ### Confusion matrix
 
+> Confusion matrix recap:
 
-| |High Risk Predicted|Low Risk|
+
+| |High Risk Predicted|Low Risk Predicted|
 |---|-----------|-----------------|
 |*EasyEnsembleClassifier*|
 |High Risk|93|8|
@@ -54,3 +56,27 @@ The goals of this challenge is to:
 |High Risk|68|33|
 |Low Risk|10220|6884|
 
+### Precision and recal score
+
+> Precision and recal score recap:
+
+| |Precision |Recall|
+|---|-----------|-----------------|
+|*EasyEnsembleClassifier*|
+|High Risk|0.09|0.92|
+|Low Risk|1.00|0.94|
+|*BalancedRandomForestClassifier*|
+|High Risk|0.02|0.61|
+|Low Risk|1.00|0.84|
+|*RandomOverSampler*|
+|High Risk|0.01|0.71|
+|Low Risk|1.00|0.61|
+|*SMOTEENN*|
+|High Risk|0.01|0.73|
+|Low Risk|1.00|0.59|
+|*SMOTE*|
+|High Risk|0.01|0.62|
+|Low Risk|1.00|0.69|
+|*ClusterCentroids*|
+|High Risk|0.01|0.67|
+|Low Risk|1.00|0.40|
