@@ -79,7 +79,7 @@ The goals of this challenge is to:
 |Low Risk|1.00|0.69||
 |*ClusterCentroids*|
 |High Risk|0.01|0.67||
-
+|Low Risk|1.00|0.40||
 
 ### Analysis
 
