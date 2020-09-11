@@ -63,23 +63,23 @@ The goals of this challenge is to:
 | |Precision |Recall|F1|
 |---|-----------|-----------------|
 |*EasyEnsembleClassifier*|
-|High Risk|0.09|0.92||
-|Low Risk|1.00|0.94||
+|High Risk|0.09|0.92|0.16|
+|Low Risk|1.00|0.94|0.97|
 |*BalancedRandomForestClassifier*|
-|High Risk|0.02|0.61||
-|Low Risk|1.00|0.84||
+|High Risk|0.02|0.61|0.04|
+|Low Risk|1.00|0.84|0.91|
 |*RandomOverSampler*|
-|High Risk|0.01|0.71||
-|Low Risk|1.00|0.61||
+|High Risk|0.01|0.71|0.02|
+|Low Risk|1.00|0.61|0.75|
 |*SMOTEENN*|
-|High Risk|0.01|0.73||
-|Low Risk|1.00|0.59||
+|High Risk|0.01|0.73|0.02|
+|Low Risk|1.00|0.59|0.74|
 |*SMOTE*|
-|High Risk|0.01|0.62||
-|Low Risk|1.00|0.69||
+|High Risk|0.01|0.62|0.02|
+|Low Risk|1.00|0.69|0.82|
 |*ClusterCentroids*|
-|High Risk|0.01|0.67||
-|Low Risk|1.00|0.40||
+|High Risk|0.01|0.67|0.01|
+|Low Risk|1.00|0.40|0.57|
 
 ### Analysis
 
