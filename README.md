@@ -12,8 +12,8 @@ The goals of this challenge is to:
 
 ## Resources
 
-- Dataset: cf. *LoanStats_2019Q1.csv* in [Resources](/Resources) folder
-- Notebook: cf. *credit_risk_ensemble.ipynb* and *credit_risk_resampling.ipynb* files
+- Dataset: cf. *LoanStats_2019Q1.csv* in [Resources](/Challenge/Resources) folder
+- Notebook: cf. *credit_risk_ensemble.ipynb* and *credit_risk_resampling.ipynb* files [Challenge](/Challenge) folder
 
 ## Results
 
