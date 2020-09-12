@@ -95,8 +95,8 @@ Thus, our objective would mainly be to build/find a model that find the maximum 
 
 **Even if the *EasyEnsembleClassifier* model ends up with having the best overall results, we would recommend to perform additional tasks:**
 - **Deleted some "parasite" features in our dataset which present the lower impact on this model in order to strengthen it**
-- **If the model’s precision regarding high risk is significant higher and the precision is acceptable/manageable for end-user:**
-    - > ***EasyEnsembleClassifier* model should be picked**
-- **If one of the two conditions above is not fulfilled:**
-    - > **Another model must be found**
+    - **If the model’s precision regarding high risk is significant higher and the precision is acceptable/manageable for end-user:**
+        - > ***EasyEnsembleClassifier* model should be picked**
+    - **If one of the two conditions above is not fulfilled:**
+       - > **Another model must be found**
 
