@@ -86,7 +86,7 @@ The goals of this challenge is to:
 Based on the balanced accuracy, *EasyEnsembleClassifier* model, with an accuracy of about 90%, outperforms the others five models which are all about 70% of accuracy (except the *ClusterCentroids* which is the less accurate with a 50% mark).
 In overall, based on our dataset, all models have quite a perfect precision for predicting low risk credit (about 100%!) but have a really bad precision to predict high risk credit. *EasyEnsembleClassifier* model also outperforms other models but its precision is limited to about 9% which could lead to a lot of false positives (loans detected as high risk whereas they present low risk).
 Regarding sensitivity, again, the *EasyEnsembleClassifier* model shows the best results as it correctly caught about 92% of high risk loans and about 94% of low risk ones.
-Thus, our objective would mainly be to build/find a model that find the maximum of high risk loans. In that way, *EasyEnsembleClassifier* model could be a could solution but it presents an important flaw which could be problematic: this model would pop-up a lot of loans as high risk ones whereas they present low risk which could lead to a lot of additional work for end-user.
+Thus, our objective would mainly be to build/find a model that find the maximum of high risk loans. In that way, *EasyEnsembleClassifier* model could be a could solution but it presents an important flaw which could be problematic: this model would pop-up a lot of loans as high risk ones whereas they present low risk which could lead to a lot of additional work for end-user (which its low F1 score shows).
 
 #### Recommendation
 
@@ -95,5 +95,5 @@ Thus, our objective would mainly be to build/find a model that find the maximum 
 - **If the model’s precision regarding high risk is significant higher and the precision is acceptable/manageable for end-user:**
     - > ***EasyEnsembleClassifier* model should be picked**
 - **If one of the two conditions above is not fulfilled:**
-    - > **another model must be found**
+    - > **Another model must be found**
 
